@@ -1,0 +1,78 @@
+.highlight { }
+
+table 
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Table style  
+----------------------------------------------------------*/
+table.tbl1
+{
+    /*width: 100%;
+    margin-left:30px;
+    margin-righ:0px;*/
+}
+
+table.tbl1 tr:hover
+{
+  color:red;
+}
+
+table.tbl1 .head{
+     background: #A3C2EA url("../images/tbl_head_bg.png") repeat-x scroll 0 0; 
+}
+
+table.tbl1 tr th
+{
+    text-align: center;
+    background-color: #fff;
+    font-size:13px;
+    padding:4px;
+    border: solid 1px #888;
+    margin: 0;
+    background: #A3C2EA url("../images/tbl_head_bg.png") repeat-x scroll 0 0;
+    
+    color:#282828;
+}
+
+table.tbl1 tr td
+{
+    text-align: center;
+    background-color: #fff;
+    font-size:13px;
+    padding:4px;
+    border: solid 1px #888;
+    margin: 0;
+}
+
+table.tbl1 tbody tr.alt td
+{
+    background-color: #e4ecf7; 
+    padding:4px;    
+}
+
+table.tbl1 tr.over td,
+table.tbl1 tbody tr.alt.over td
+{
+    /*background-color: #bcd4ec;   */
+    cursor: pointer;   
+}
+
+table.tbl1 a
+{
+    text-decoration: underline;
+}
+
+table.tbl1 a:hover
+{
+    text-decoration: none;
+}
+
+table.tbl1 a:visited
+{
+    /*color: #bccedc;*/
+}
+
+/* Define column widths 
+----------------------------------------------------------*/
