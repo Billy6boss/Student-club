@@ -6,3 +6,10 @@ Using Java base web and Tomcat 7.0 or above
 * Add ,edit,delete club
 * Add,edit,delete club member
 * Output PDF data
+* Copy club
+
+### Requirement
+* Database
+* java 1.8 or above
+* db2jcc4
+* gson 1.4 or above
